@@ -1,0 +1,36 @@
+IDI_ICON1   ICON    DISCARDABLE "../res/img/btctools-logo.ico"
+
+#include <windows.h>
+#include "../src/config.h"
+
+/********************************************
+* about the .rc file:
+* https://stackoverflow.com/questions/2784697/setting-application-info-in-a-qt-executable-file-on-windows
+*********************************************/
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     APP_VERSION_NUMS
+PRODUCTVERSION  APP_VERSION_NUMS
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",        APP_COMPANY_NAME
+            VALUE "FileDescription",    APP_FULL_NAME
+            VALUE "FileVersion",        APP_VERSION_NAME
+            VALUE "InternalName",       APP_FULL_NAME
+            VALUE "LegalCopyright",     APP_COPYRIGHT_LINE
+            VALUE "LegalTrademarks1",   APP_LEGAL_INFO_LINE
+            VALUE "LegalTrademarks2",   APP_LEGAL_INFO_LINE
+            VALUE "OriginalFilename",   APP_FILE_NAME
+            VALUE "ProductName",        APP_NAME
+            VALUE "ProductVersion",     APP_VERSION_NAME
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END

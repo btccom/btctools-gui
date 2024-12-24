@@ -1,0 +1,8 @@
+{
+    "minVersionId": 1,
+    "versionId": 1330,
+    "versionName": "v1.3.3",
+    "desc": "1. Added support for Avalon 12xx miners (Thanks to Vnish Firmware's CloudDev-C for a bug fix).\n\n2. Added support for Vnish Firmware.",
+    "desc_zh_CN": "1. 添加了对阿瓦隆12xx型矿机的支持（感谢Vnish固件团队的CloudDev-C提供的一个Bug修复）。\n\n2. 添加了对Vnish固件的支持。",
+    "downloadUrl": "https://snapcraft.io/btctools"
+}

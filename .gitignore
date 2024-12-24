@@ -1,0 +1,12 @@
+/gen/
+/res/scripts
+/res/vip-pool-server-list.txt
+/res/keys/
+*.user
+*.autosave
+*~
+*.exe
+.vs/
+.vscode/
+.DS_Store
+msvc_make.bat
